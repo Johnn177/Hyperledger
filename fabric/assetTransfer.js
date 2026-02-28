@@ -37,12 +37,12 @@ class AssetTransfer extends Contract {
 
         // Activos iniciales de prueba
         const assets = [
-            { ID: 'asset1', Color: 'blue',   Size: 5,  Owner: 'Tomoko',  AppraisedValue: 300 },
-            { ID: 'asset2', Color: 'red',    Size: 5,  Owner: 'Brad',    AppraisedValue: 400 },
-            { ID: 'asset3', Color: 'green',  Size: 10, Owner: 'Jin Soo', AppraisedValue: 500 },
-            { ID: 'asset4', Color: 'yellow', Size: 10, Owner: 'Max',     AppraisedValue: 600 },
-            { ID: 'asset5', Color: 'black',  Size: 15, Owner: 'Adriana', AppraisedValue: 700 },
-            { ID: 'asset6', Color: 'white',  Size: 15, Owner: 'Michel',  AppraisedValue: 800 },
+            { ID: 'asset1', Color: 'azul',   Size: 5,  Owner: 'Tomoko',  AppraisedValue: 300 },
+            { ID: 'asset2', Color: 'rojo',    Size: 5,  Owner: 'Brad',    AppraisedValue: 400 },
+            { ID: 'asset3', Color: 'verde',  Size: 10, Owner: 'Jin Soo', AppraisedValue: 500 },
+            { ID: 'asset4', Color: 'amarillo', Size: 10, Owner: 'Max',     AppraisedValue: 600 },
+            { ID: 'asset5', Color: 'negro',  Size: 15, Owner: 'Adriana', AppraisedValue: 700 },
+            { ID: 'asset6', Color: 'blanco',  Size: 15, Owner: 'Michel',  AppraisedValue: 800 },
         ];
 
         // Insertar cada asset en el World State
